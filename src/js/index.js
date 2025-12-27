@@ -9,10 +9,12 @@ const minutesInMonth = hoursInMonth * 60
 console.log(hoursInMonth)
 console.log(minutesInMonth)
 // 3 завдання
-let helth = 100
-let energy = 200
-console.log(helth - 50)
-console.log(energy - 20)
+let playerHealth = 100;
+let playerStamina = 100;
+playerHealth = playerHealth  - 70
+playerStamina = playerStamina - 20;
+console.log(playerHealth)
+console.log(playerStamina)
 // 4 завдання
 const totalPrice = 120
 const discountPrice = totalPrice / 100 * 10
